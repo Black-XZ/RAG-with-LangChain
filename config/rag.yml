@@ -1,0 +1,7 @@
+# API 调用区域配置
+# domestic = 国内版 dashscope（原生调用，推荐）
+# international = 新加坡地域 OpenAI 兼容端
+api_region: domestic
+
+chat_model_name: qwen3-max
+embedding_model_name: text-embedding-v4

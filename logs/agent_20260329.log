@@ -1,0 +1,182 @@
+2026-03-29 17:41:43,803 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 17:41:43,806 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 在我当前所在地区的天气下，机器人如何保养
+2026-03-29 17:41:56,208 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-29 17:41:56,209 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 17:41:56,210 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-29 17:41:56,254 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 17:41:56,255 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 合肥
+2026-03-29 17:42:00,361 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-03-29 17:42:00,362 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '合肥'}
+2026-03-29 17:42:00,362 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-03-29 17:42:01,124 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-29 17:42:01,125 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市合肥天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-03-29 17:42:08,757 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 17:42:08,757 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人在晴天26度50%湿度环境下如何保养'}
+2026-03-29 17:42:48,890 - agent - ERROR - middleware.py:31 - 工具rag_summarize调用失败，原因：Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter', 'param': None, 'code': 'InvalidParameter'}, 'id': '12428009-da24-9ceb-8f06-650abe00f107', 'request_id': '12428009-da24-9ceb-8f06-650abe00f107'}
+2026-03-29 18:00:39,917 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 18:00:39,918 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 在我当前所在位置的天气下，机器人如何保养
+2026-03-29 18:00:46,357 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-29 18:00:46,358 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 18:00:46,358 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-29 18:00:46,402 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 18:00:46,402 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 合肥
+2026-03-29 18:00:49,885 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-03-29 18:00:49,885 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '合肥'}
+2026-03-29 18:00:49,887 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-03-29 18:00:50,644 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-29 18:00:50,645 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市合肥天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-03-29 18:00:55,972 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 18:00:55,973 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '晴天中等湿度环境下扫地机器人保养方法'}
+2026-03-29 18:00:56,215 - agent - ERROR - middleware.py:31 - 工具rag_summarize调用失败，原因：status_code: 401 
+ code: InvalidApiKey 
+ message: Invalid API-key provided.
+2026-03-29 18:05:34,921 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 18:05:34,922 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 在我当前所在位置的天气下，机器人如何保养
+2026-03-29 18:05:40,362 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-29 18:05:40,362 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 18:05:40,364 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-29 18:05:40,407 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 18:05:40,408 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 深圳
+2026-03-29 18:05:46,744 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-03-29 18:05:46,745 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '深圳'}
+2026-03-29 18:05:46,746 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-03-29 18:05:47,508 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-29 18:05:47,509 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市深圳天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-03-29 18:05:58,227 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 18:05:58,228 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人在晴天26度50%湿度环境下的保养方法'}
+2026-03-29 18:05:58,468 - agent - ERROR - middleware.py:31 - 工具rag_summarize调用失败，原因：status_code: 401 
+ code: InvalidApiKey 
+ message: Invalid API-key provided.
+2026-03-29 18:08:24,287 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 18:08:24,288 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 在我当前位置的天气下，机器人如何保养
+2026-03-29 18:08:30,066 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-29 18:08:30,067 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 18:08:30,068 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-29 18:08:30,111 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 18:08:30,112 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 深圳
+2026-03-29 18:08:36,120 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-03-29 18:08:36,121 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '深圳'}
+2026-03-29 18:08:36,123 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-03-29 18:08:36,891 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-29 18:08:36,892 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市深圳天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-03-29 18:08:44,740 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 18:08:44,741 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人在晴天中等湿度环境下的保养方法'}
+2026-03-29 18:08:46,526 - agent - ERROR - middleware.py:31 - 工具rag_summarize调用失败，原因：status_code: 401 
+ code: InvalidApiKey 
+ message: Invalid API-key provided.
+2026-03-29 21:13:24,016 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 21:13:24,044 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 在我当前所在位置的天气下，机器人如何保养
+2026-03-29 21:13:31,144 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-29 21:13:31,144 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 21:13:31,146 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-29 21:13:31,191 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 21:13:31,191 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 合肥
+2026-03-29 21:13:38,409 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-03-29 21:13:38,410 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '合肥'}
+2026-03-29 21:13:38,411 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-03-29 21:13:39,170 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-29 21:13:39,171 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市合肥天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-03-29 21:13:43,889 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 21:13:43,889 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '晴天中等湿度环境下扫地机器人保养方法'}
+2026-03-29 21:13:45,366 - agent - ERROR - middleware.py:31 - 工具rag_summarize调用失败，原因：status_code: 401 
+ code: InvalidApiKey 
+ message: Invalid API-key provided.
+2026-03-29 21:29:29,269 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 21:29:29,270 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 在我当前所在位置的天气下，机器人如何保养
+2026-03-29 21:29:35,227 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-29 21:29:35,227 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 21:29:35,229 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-29 21:29:35,273 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 21:29:35,273 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 合肥
+2026-03-29 21:29:38,656 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-03-29 21:29:38,656 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '合肥'}
+2026-03-29 21:29:38,658 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-03-29 21:29:39,415 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-29 21:29:39,415 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市合肥天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-03-29 21:29:43,553 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 21:29:43,553 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '晴天中等湿度环境下扫地机器人保养方法'}
+2026-03-29 21:29:44,517 - agent - ERROR - middleware.py:31 - 工具rag_summarize调用失败，原因：Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter', 'param': None, 'code': 'InvalidParameter'}, 'id': 'cb287540-ddec-9b8f-9931-860ce2822b74', 'request_id': 'cb287540-ddec-9b8f-9931-860ce2822b74'}
+2026-03-29 21:34:05,395 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 21:34:05,396 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 在我当前位置的天气下，机器人如何保养
+2026-03-29 21:34:10,948 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-29 21:34:10,949 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 21:34:10,950 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-29 21:34:10,995 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 21:34:10,996 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 杭州
+2026-03-29 21:34:13,857 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-03-29 21:34:13,857 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '杭州'}
+2026-03-29 21:34:13,859 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-03-29 21:34:14,617 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-29 21:34:14,618 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市杭州天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-03-29 21:34:19,366 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 21:34:19,367 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人在晴天中等湿度环境下的保养方法'}
+2026-03-29 21:34:20,953 - agent - ERROR - middleware.py:31 - 工具rag_summarize调用失败，原因：Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter', 'param': None, 'code': 'InvalidParameter'}, 'id': '50c1c911-4ca8-95f6-b607-00af060453d6', 'request_id': '50c1c911-4ca8-95f6-b607-00af060453d6'}
+2026-03-29 21:42:20,567 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 21:42:20,568 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 在我当前所在位置的天气下，机器人如何保养
+2026-03-29 21:42:24,744 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-29 21:42:24,744 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 21:42:24,745 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-29 21:42:24,791 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 21:42:24,792 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 深圳
+2026-03-29 21:42:31,179 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-03-29 21:42:31,179 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '深圳'}
+2026-03-29 21:42:31,181 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-03-29 21:42:31,941 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-29 21:42:31,941 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市深圳天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-03-29 21:42:37,617 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 21:42:37,617 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人在晴天中等湿度环境下的保养方法'}
+2026-03-29 21:42:41,435 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-29 21:42:41,941 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-03-29 21:42:41,941 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 参考资料中未提及扫地机器人在晴天中等湿度环境下的具体保养方法。
+2026-03-29 21:42:46,391 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 21:42:46,391 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人日常保养维护方法'}
+2026-03-29 21:42:49,580 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-29 21:42:50,805 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有9条消息。
+2026-03-29 21:42:50,806 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 定期清理尘盒、滚刷和边刷，避免毛发缠绕；检查并清洁传感器和充电触点；及时更换滤网；保持机器人底部轮子清洁，确保正常移动；使用后放回充电座，避免长时间亏电。
+2026-03-29 21:44:40,407 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 21:44:40,408 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 帮我生成我的使用报告
+2026-03-29 21:44:44,927 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_id
+2026-03-29 21:44:44,927 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 21:44:44,928 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_id调用成功
+2026-03-29 21:44:45,002 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 21:44:45,003 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 1004
+2026-03-29 21:44:51,668 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_current_month
+2026-03-29 21:44:51,668 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 21:44:51,670 - agent - INFO - middleware.py:24 - [tool monitor]工具get_current_month调用成功
+2026-03-29 21:44:51,791 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-29 21:44:51,791 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 2025-06
+2026-03-29 21:45:04,388 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fill_context_for_report
+2026-03-29 21:45:04,388 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 21:45:04,390 - agent - INFO - middleware.py:24 - [tool monitor]工具fill_context_for_report调用成功
+2026-03-29 21:45:04,809 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-03-29 21:45:04,810 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | fill_context_for_report已调用
+2026-03-29 21:45:09,831 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fetch_external_data
+2026-03-29 21:45:09,832 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'user_id': '1004', 'month': '2025-06'}
+2026-03-29 21:45:09,863 - agent - INFO - middleware.py:24 - [tool monitor]工具fetch_external_data调用成功
+2026-03-29 21:45:11,619 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有9条消息。
+2026-03-29 21:45:11,620 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | {"特征": "85㎡ | 2猫 | 混合地面", "效率": "猫砂泼洒处理:8次/月\\n自动回充成功率:89%", "耗材": "主刷缠绕:严重\\n滤网更换:急需", "对比": "建议升级吸力至2500Pa"}
+2026-03-29 21:45:16,702 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 21:45:16,703 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人主刷缠绕严重处理方法'}
+2026-03-29 21:45:24,671 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-29 21:45:25,709 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有11条消息。
+2026-03-29 21:45:25,710 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫地机器人主刷缠绕严重时，应先关闭电源，拆下主刷，用剪刀或专用工具清除缠绕的毛发和杂物，清理干净后重新安装。定期维护可减少缠绕问题。
+2026-03-29 21:45:31,431 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 21:45:31,432 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人滤网更换周期和方法'}
+2026-03-29 21:45:36,183 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-29 21:45:37,323 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有13条消息。
+2026-03-29 21:45:37,323 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫地机器人滤网建议每1-2个月更换一次，若使用频率高或环境灰尘较多，应适当缩短周期。更换方法为：打开尘盒，取出旧滤网，放入新滤网并确保安装到位。
+2026-03-29 21:45:41,419 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-29 21:45:41,419 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人吸力2500Pa适用场景'}
+2026-03-29 21:45:46,126 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-29 21:45:47,112 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有15条消息。
+2026-03-29 21:45:47,113 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 2500Pa吸力的扫地机器人适用于日常家庭地面清洁，可有效清理灰尘、毛发和细小颗粒物，适合硬质地板和短毛地毯等常见家居环境。
+2026-03-29 23:47:28,017 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 23:47:28,018 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 我现在所在城市今天的天气怎么样？
+2026-03-29 23:47:34,043 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-29 23:47:34,044 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-29 23:47:36,802 - agent - WARNING - agent_tools.py:155 - [get_user_location]空城市信息 info=OK infocode=10000 ip=45.196.220.15 raw={'status': '1', 'info': 'OK', 'infocode': '10000', 'province': [], 'city': [], 'adcode': [], 'rectangle': []}
+2026-03-29 23:47:36,802 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-29 23:47:36,881 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-29 23:47:36,882 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 未知城市
+2026-03-29 23:50:15,393 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-29 23:50:15,394 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 我现在所在城市今天的天气怎么样？
