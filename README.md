@@ -1,6 +1,8 @@
 # 智扫通机器人智能客服 🤖
 
 > 基于 LangChain ReAct Agent + RAG + Streamlit 的扫地机器人智能客服系统
+>
+<img width="1280" height="660" alt="示例1" src="https://github.com/user-attachments/assets/41fb5a9a-b43f-4171-9dec-f16637adb39d" />
 
 ---
 
